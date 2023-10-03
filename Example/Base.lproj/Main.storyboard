@@ -22,20 +22,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EcT-8U-y7X">
+                                <rect key="frame" x="118" y="461" width="156" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Dev-feature-1"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EcT-8U-y7X" secondAttribute="trailing" constant="119" id="A7a-tk-AIA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="w2k-KH-9X0" secondAttribute="bottom" constant="381" id="J9L-g7-I8O"/>
                             <constraint firstItem="w2k-KH-9X0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="175" id="Jbt-1w-iOF"/>
                             <constraint firstItem="w2k-KH-9X0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="357" id="Vws-ZJ-Ns8"/>
+                            <constraint firstItem="EcT-8U-y7X" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="118" id="Yi9-qA-AeO"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="w2k-KH-9X0" secondAttribute="trailing" constant="176" id="iAF-qM-cBM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="EcT-8U-y7X" secondAttribute="bottom" constant="322" id="k0t-uA-zVQ"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="33" y="4"/>
+            <point key="canvasLocation" x="32.824427480916029" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>
